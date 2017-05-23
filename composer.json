@@ -1,0 +1,27 @@
+{
+    "name": "mpociot/lastfm-slack",
+    "description": "Set your Last.fm tracks as your Slack status",
+    "keywords": [
+        "Slack",
+        "Slack Status",
+        "Last.fm",
+        "Spotify"
+    ],
+    "require": {
+        "react/event-loop": "^0.4.3",
+        "guzzlehttp/guzzle": "^6.2",
+        "vlucas/phpdotenv": "^2.4",
+        "matto1990/lastfm-api": "^1.5",
+        "mkraemer/react-pcntl": "^2.2"
+    },
+    "bin": [
+        "lastfm2slack"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcel Pociot",
+            "email": "m.pociot@gmail.com"
+        }
+    ]
+}
